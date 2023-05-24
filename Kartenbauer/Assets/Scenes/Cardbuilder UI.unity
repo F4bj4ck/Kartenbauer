@@ -466,7 +466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00026050894}
+  m_AnchoredPosition: {x: 0, y: 0.00034386004}
   m_SizeDelta: {x: 0, y: 559.09}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &102902758
@@ -489,8 +489,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -717,8 +717,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -869,8 +869,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -2526,7 +2526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Text dfg
+  m_text: ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
   m_sharedMaterial: {fileID: -1439253378942512130, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
@@ -4285,7 +4285,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 67.5, y: 67.71796}
-  m_Spacing: {x: 6.453125, y: 0}
+  m_Spacing: {x: 5.7187505, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
   paddingSizerFallback:
@@ -4513,8 +4513,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -7734,7 +7734,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 233706046}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99998516
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7986,7 +7986,7 @@ RectTransform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21567518, y: 0.8376013}
-  m_AnchorMax: {x: 0.77394354, y: 0.93392646}
+  m_AnchorMax: {x: 0.77394354, y: 0.9294386}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Innereienkeulenverrtretertererer
+  m_text: ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
   m_sharedMaterial: {fileID: -1439253378942512130, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
@@ -9808,7 +9808,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 70.5, y: 70.5}
-  m_Spacing: {x: 6.453125, y: 0}
+  m_Spacing: {x: 5.7187505, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
   paddingSizerFallback:
@@ -11189,8 +11189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14620359, y: 0.6492705}
   m_AnchorMax: {x: 0.14620359, y: 0.6492705}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.318848, y: 47.462463}
+  m_AnchoredPosition: {x: -4.6792984, y: 1.7156982}
+  m_SizeDelta: {x: 37.9603, y: 44.031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665198283
 MonoBehaviour:
@@ -11212,10 +11212,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
-  m_sharedMaterial: {fileID: -1439253378942512130, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
+  m_sharedMaterial: {fileID: -3752739945942293785, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11239,8 +11239,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11863,8 +11863,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -13401,8 +13401,8 @@ RectTransform:
   m_Father: {fileID: 917768888}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6492899, y: 0.053681135}
-  m_AnchorMax: {x: 0.9036237, y: 0.10931289}
+  m_AnchorMin: {x: 0.6492899, y: 0.053681016}
+  m_AnchorMax: {x: 0.9036237, y: 0.11356068}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13426,10 +13426,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1000
+  m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
-  m_sharedMaterial: {fileID: -1439253378942512130, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
+  m_sharedMaterial: {fileID: -3752739945942293785, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14458,8 +14458,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -15184,8 +15184,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.53365, y: 114.86562}
-  m_Spacing: {x: 8.604166, y: 8.604166}
+  m_CellSize: {x: 113.51282, y: 101.793755}
+  m_Spacing: {x: 7.6250005, y: 7.6250005}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -15389,8 +15389,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.23111561, y: 0.75956446}
   m_AnchorMax: {x: 0.23111561, y: 0.75956446}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 47.318848, y: 47.462463}
+  m_AnchoredPosition: {x: -4.367302, y: 2.651596}
+  m_SizeDelta: {x: 38.5842, y: 42.1594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127801983
 MonoBehaviour:
@@ -15412,10 +15412,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
-  m_sharedMaterial: {fileID: -1439253378942512130, guid: 4000a8820c14c3148ae91946e7549e48, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
+  m_sharedMaterial: {fileID: -3752739945942293785, guid: c7f62f9c2ba94dc4e97c3fe8c89b1523, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15439,8 +15439,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42
-  m_fontSizeBase: 42
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
