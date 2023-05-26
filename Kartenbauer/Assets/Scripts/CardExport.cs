@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.IO;
+using TMPro;
 
 
 public class CardExport : MonoBehaviour
@@ -8,7 +9,7 @@ public class CardExport : MonoBehaviour
     private Vector2Int Resolution;
 
     [SerializeField]
-    private string ImageName;
+    private TMP_Text ImageName;
 
     [SerializeField]
     private string ExportPath;
@@ -42,10 +43,9 @@ public class CardExport : MonoBehaviour
 
     private void ExportAsPNG(Texture2D img)
     {
-        System.Guid guid = System.Guid.NewGuid();
         byte[] bytes = img.EncodeToPNG();
         string pathAbs = Application.dataPath + "/" + ExportPath;
-        string filename = guid.ToString() + "_" + ImageName + "_" + Resolution.x + "x" + Resolution.y + ".png";
+        string filename = ImageName.text + ".png";
         if (!Directory.Exists(pathAbs))
         {
             Directory.CreateDirectory(pathAbs);
