@@ -10,8 +10,20 @@ public class ContentManager : MonoBehaviour
     public GameObject parent;
     public Image image;
 
+    public GameObject[] categories;
+
     public void FillContent(string folder)
     {
+        foreach (var category in categories)
+        {
+            category.SetActive(false);
+
+            if (category.name.Equals(folder))
+            {
+                category.SetActive(true);
+            }
+        }
+
         foreach (Transform child in parent.transform)
         {
             Destroy(child.gameObject);
@@ -47,8 +59,9 @@ public class ContentManager : MonoBehaviour
         Debug.Log(FilePath);
         Sprite NewSprite;
         Texture2D SpriteTexture = LoadTexture(FilePath);
+        SpriteTexture.filterMode = FilterMode.Point;
+        SpriteTexture.wrapMode = TextureWrapMode.Clamp;
         NewSprite = Sprite.Create(SpriteTexture, new Rect(0, 0, SpriteTexture.width, SpriteTexture.height), new Vector2(0, 0), PixelsPerUnit);
-
         return NewSprite;
     }
 
