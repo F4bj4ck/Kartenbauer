@@ -30,7 +30,7 @@ public class ContentManager : MonoBehaviour
         }
 
         string path = Application.dataPath;
-        path += "/Sprites/Items/";
+        path += "/Resources/Sprites/Items/";
         path += folder;
         foreach (var file in System.IO.Directory.GetFiles(path))
         {
