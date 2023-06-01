@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,22 +27,37 @@ public class ContentManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        string path = Application.dataPath;
-        path += "/Resources/Sprites/Items/";
+        //string path = Application.dataPath;
+        //path += "/Resources/Sprites/Items/";
+        //path += folder;
+
+        string path = "Sprites/Items/";
         path += folder;
-        foreach (var file in System.IO.Directory.GetFiles(path))
+
+        Object[] textures = Resources.LoadAll(path, typeof(Texture2D));
+
+        foreach (var texture in textures)
         {
-            if (file.EndsWith(".meta"))
-            {
-                continue;
-            }
-            
             GameObject obj = Instantiate(prefab, parent.transform);
             Image image = obj.GetComponentInChildren<Image>();
-            image.sprite = LoadNewSprite(file);
+            image.sprite = LoadNewSprite(texture as Texture2D);
             Button button = obj.GetComponent<Button>();
-            button.onClick.AddListener(()=> SwapImage(button.gameObject));
+            button.onClick.AddListener(() => SwapImage(button.gameObject));
         }
+
+        //foreach (var file in System.IO.Directory.GetFiles(path))
+        //{
+        //    if (file.EndsWith(".meta"))
+        //    {
+        //        continue;
+        //    }
+
+        //    GameObject obj = Instantiate(prefab, parent.transform);
+        //    Image image = obj.GetComponentInChildren<Image>();
+        //    image.sprite = LoadNewSprite(file);
+        //    Button button = obj.GetComponent<Button>();
+        //    button.onClick.AddListener(() => SwapImage(button.gameObject));
+        //}
     }
 
     public void SwapImage(GameObject obj)
@@ -52,13 +65,12 @@ public class ContentManager : MonoBehaviour
         image.sprite = obj.GetComponentInChildren<Image>().sprite;
     }
 
-    public Sprite LoadNewSprite(string FilePath, float PixelsPerUnit = 100.0f)
+    public Sprite LoadNewSprite(Texture2D texture, float PixelsPerUnit = 100.0f)
     {
 
         // Load a PNG or JPG image from disk to a Texture2D, assign this texture to a new sprite and return its reference
-        Debug.Log(FilePath);
         Sprite NewSprite;
-        Texture2D SpriteTexture = LoadTexture(FilePath);
+        Texture2D SpriteTexture = texture;
         SpriteTexture.filterMode = FilterMode.Point;
         SpriteTexture.wrapMode = TextureWrapMode.Clamp;
         NewSprite = Sprite.Create(SpriteTexture, new Rect(0, 0, SpriteTexture.width, SpriteTexture.height), new Vector2(0, 0), PixelsPerUnit);
