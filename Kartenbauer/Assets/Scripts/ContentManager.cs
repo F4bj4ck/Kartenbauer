@@ -27,37 +27,37 @@ public class ContentManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        //string path = Application.dataPath;
-        //path += "/Resources/Sprites/Items/";
-        //path += folder;
-
-        string path = "Sprites/Items/";
+        string path = Application.dataPath;
+        path += "/Resources/Sprites/Items/";
         path += folder;
 
-        Object[] textures = Resources.LoadAll(path, typeof(Texture2D));
+        //string path = "Sprites/Items/";
+        //path += folder;
 
-        foreach (var texture in textures)
-        {
-            GameObject obj = Instantiate(prefab, parent.transform);
-            Image image = obj.GetComponentInChildren<Image>();
-            image.sprite = LoadNewSprite(texture as Texture2D);
-            Button button = obj.GetComponent<Button>();
-            button.onClick.AddListener(() => SwapImage(button.gameObject));
-        }
+        //Object[] textures = Resources.LoadAll(path, typeof(Texture2D));
 
-        //foreach (var file in System.IO.Directory.GetFiles(path))
+        //foreach (var texture in textures)
         //{
-        //    if (file.EndsWith(".meta"))
-        //    {
-        //        continue;
-        //    }
-
         //    GameObject obj = Instantiate(prefab, parent.transform);
         //    Image image = obj.GetComponentInChildren<Image>();
-        //    image.sprite = LoadNewSprite(file);
+        //    image.sprite = LoadNewSprite(texture as Texture2D);
         //    Button button = obj.GetComponent<Button>();
         //    button.onClick.AddListener(() => SwapImage(button.gameObject));
         //}
+
+        foreach (var file in System.IO.Directory.GetFiles(path))
+        {
+            if (file.EndsWith(".meta"))
+            {
+                continue;
+            }
+
+            GameObject obj = Instantiate(prefab, parent.transform);
+            Image image = obj.GetComponentInChildren<Image>();
+            image.sprite = LoadNewSprite(LoadTexture(file));
+            Button button = obj.GetComponent<Button>();
+            button.onClick.AddListener(() => SwapImage(button.gameObject));
+        }
     }
 
     public void SwapImage(GameObject obj)
