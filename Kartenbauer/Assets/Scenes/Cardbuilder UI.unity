@@ -516,15 +516,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 7
-    m_Right: 7
-    m_Top: 7
-    m_Bottom: 7
+    m_Left: 6
+    m_Right: 6
+    m_Top: 6
+    m_Bottom: 6
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 112.0649, y: 100}
-  m_Spacing: {x: 9.072916, y: 9.072916}
+  m_CellSize: {x: 113.6899, y: 100}
+  m_Spacing: {x: 7.947917, y: 7.947917}
   m_Constraint: 1
   m_ConstraintCount: 4
   paddingSizerFallback:
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
-  m_RichText: 1
+  m_RichText: 0
   m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
@@ -3930,7 +3930,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 63, y: 67.71796}
-  m_Spacing: {x: 6.8046875, y: 0}
+  m_Spacing: {x: 5.9609375, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
   paddingSizerFallback:
@@ -5925,7 +5925,7 @@ MonoBehaviour:
   m_enableKerning: 1
   m_enableExtraPadding: 1
   checkPaddingRequired: 0
-  m_isRichText: 1
+  m_isRichText: 0
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9605,7 +9605,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 65, y: 65}
-  m_Spacing: {x: 6.8046875, y: 0}
+  m_Spacing: {x: 5.9609375, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
   paddingSizerFallback:
